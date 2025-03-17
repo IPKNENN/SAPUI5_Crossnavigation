@@ -1,7 +1,6 @@
 # Navigation from Elements -> Elements
 
-It contains these simple two steps to recreate after you created the necessary Apps:
-Actually 3 if you want the launch page for testing.
+follow these 2 steps (3 steps if you include the launchpage for testing) to recreate the crossnavigation for elments to elements:
 
 | File or Folder    | Purpose                                           |
 | ----------------- | ------------------------------------------------- |
@@ -52,8 +51,7 @@ annotate service.AlcoholInCup with {
 
 # Navigation from Elements -> Ui5
 
-It contains these simple three steps to recreate after you created the necessary Apps:
-Actually 4 if you want the launch page for testing.
+follow these 3 steps (4 steps if you include the launchpage for testing) to recreate the crossnavigation for elments to custom ui5:
 
 | File or Folder    | Purpose                                                                 |
 | ----------------- | ----------------------------------------------------------------------- |
@@ -114,8 +112,7 @@ if (oComponentData.startupParameters && oComponentData.startupParameters.ID) {
 
 # Navigation from Ui5 -> Elements
 
-It contains these simple three steps to recreate after you created the necessary Apps:
-Actually 4 if you want the launch page for testing.
+follow these 3 steps (4 steps if you include the launchpage for testing) to recreate the crossnavigation for custom ui5 to elements:
 
 | File or Folder         | Purpose                                                                          |
 | ---------------------- | -------------------------------------------------------------------------------- |
@@ -176,8 +173,7 @@ navToAlcohol: function (oEvent) {
 
 # Navigation from Ui5 -> Ui5
 
-It contains these simple four steps to recreate after you created the necessary Apps:
-Actually 4 if you want the launch page for testing.
+follow these 4 steps (5 steps if you include the launchpage for testing) to recreate the crossnavigation for custom ui5 to custom ui5:
 
 | File or Folder         | Purpose                                                                          |
 | ---------------------- | -------------------------------------------------------------------------------- |
@@ -251,9 +247,9 @@ if (oComponentData.startupParameters && oComponentData.startupParameters.ID) {
 
 # Launchpage.html
 
-if you want to test the cross navigation local, you have to add a launch page to your project
+if you want to test the crossnavigation localy, you have to add a launch page to your project
 
-this launch page looks like this:
+the launch page should look like this:
 
 ```html
 <!DOCTYPE html>
