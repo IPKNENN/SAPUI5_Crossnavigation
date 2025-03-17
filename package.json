@@ -1,0 +1,42 @@
+{
+  "name": "SAPUI5_Crossnavigation",
+  "version": "1.0.0",
+  "description": "A simple CAP project.",
+  "repository": "<Add your repository here>",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "@sap/cds": "^7",
+    "express": "^4",
+    "@sap/cds-hana": "^2",
+    "@sap/xssec": "^3"
+  },
+  "devDependencies": {
+    "@cap-js/sqlite": "^1",
+    "@sap/cds-dk": "^7",
+    "@sap/ux-specification": "^1.120.13"
+  },
+  "scripts": {
+    "start": "cds-serve",
+    "watch-fiorielements": "cds watch --open fiorielements/webapp/index.html?sap-ui-xx-viewCache=false",
+    "watch-ui5freestyle": "cds watch --open ui5freestyle/webapp/index.html?sap-ui-xx-viewCache=false",
+    "watch-fiorielementsnavto": "cds watch --open fiorielementsnavto/webapp/index.html?sap-ui-xx-viewCache=false",
+    "watch-ui5freestylenavto": "cds watch --open ui5freestylenavto/webapp/index.html?sap-ui-xx-viewCache=false"
+  },
+  "sapux": [
+    "app/fiorielements",
+    "app/ui5freestyle",
+    "app/ui5freestyle",
+    "app/fiorielementsnavto",
+    "app/fiorielementsnavto",
+    "app/ui5freestylenavto"
+  ],
+  "cds": {
+    "requires": {
+      "[production]": {
+        "db": "hana",
+        "auth": "xsuaa"
+      }
+    }
+  }
+}
