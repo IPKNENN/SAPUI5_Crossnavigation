@@ -333,5 +333,5 @@ you can copy the launch page and change the display name, the SAPUI5.Component a
 
 # if something does not work:
 
-please contact me niklas.ennser@agilita.ch or just ask me in person. 
+please contact me niklas.ennser@inpeek.ch or just ask me in person. 
 
